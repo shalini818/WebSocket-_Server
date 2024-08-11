@@ -1,0 +1,17 @@
+{
+  "name": "websocket-_server",
+  "version": "1.0.0",
+  "description": "WebSocket server and client project",
+  "main": "src/server/index.js",
+  "scripts": {
+    "start:server": "node src/server/index.js",
+    "start:client": "node src/client/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "websocket": "^1.0.35",
+    "ws": "^8.18.0"
+  }
+}
